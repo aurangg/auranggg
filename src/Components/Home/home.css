@@ -1,0 +1,129 @@
+.banner{
+    display:flex;
+    height:calc(100vh - 70px);
+    justify-content: center;
+    align-items: center;
+}
+.banner .banner-heading{
+    font-size: 70px;
+    color:#BBBBBB;
+    text-align: center;
+    display:inline-block;
+    font-weight: 500;
+    margin-top:-40px;
+}
+.banner .banner-heading-span{
+    font-size:70px;
+    color:#222222;
+    display:inline-block;   
+}
+.nice-to-meet{
+    height:100vh;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width:100%;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+    padding:15vh;
+  }
+  .nice-to-meet-text{
+    margin-top:10vh;
+    font-size: 69px;
+    font-weight: 500;
+    color:#403D3D;
+    margin-bottom:40vh;
+  }
+  .nice-to-meet-about{
+    font-size: 30px;
+    font-weight:400;
+    color:#403D3D;
+  }
+.design-info{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width:100%;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+}
+.design-text{
+    color:#BBBBBB;
+    font-size:40px;
+    font-weight: 400;
+    width:60%;
+    text-align: center;
+    margin:0 !important;
+}
+.design-text-span{
+    color:#222222;   
+    font-size:40px;
+}
+.portfolio-home{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom:50px;
+    -webkit-transition: all 400ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 400ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 400ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 400ms ease-in;
+    transform: scale(1);
+}
+.portfolio-home-image{
+    width:100%;
+    border-radius: 10px;
+    height:auto;
+}.portfolio-home:hover{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(0.95);
+    -ms-transition: all 400ms ease-in;
+    -ms-transform: scale(0.95);   
+    -moz-transition: all 400ms ease-in;
+    -moz-transform: scale(0.95);
+    transition: all 400ms ease-in;
+    transform: scale(0.95);
+}
+@media(max-width:420px){
+    .banner .banner-heading{
+        font-size:40px;
+    }
+    .banner .banner-heading-span{
+        font-size:40px;
+    }
+    .nice-to-meet{
+        padding:20px;
+        height:auto;
+    }
+    .nice-to-meet-text{
+        margin-top: 5vh;
+font-size: 39px;
+font-weight: 500;
+color: #403D3D;
+margin-bottom: 10vh;
+    }
+    .design-info{
+        height:auto;
+        padding:10px;
+        margin:40px 0px;
+    }
+    .design-text{
+        font-size:20px;
+        width:100%;
+    }
+    .design-text-span{
+        font-size:20px;
+    }
+    .portfolio-home{
+        margin-bottom:20px;
+    }
+    
+}

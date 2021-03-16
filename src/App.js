@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from './Components/Home/Home';
+import Toolbar from './Components/Toolbar/Toolbar'
+import SideDrawer from './Components/SideDrawer/SideDrawer'
+import Backdrop from './Components/BackDrop/Backdrop';
+import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
 
 function App() {
+  const [sideDrawerOpen, setSideDrawerOpen] = useState(false)
+  function drawerToggleClickHandler(){
+    setSideDrawerOpen(!sideDrawerOpen)
+  }
+  function backdropClickHandler(){
+    setSideDrawerOpen(!sideDrawerOpen)
+  }
+  let backdrop;
+
+  if(sideDrawerOpen){
+    backdrop = <Backdrop click={backdropClickHandler} />
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Router>
+        <Toolbar drawerClickHandler={drawerToggleClickHandler} />
+        <SideDrawer show={sideDrawerOpen} drawerClickHandler={drawerToggleClickHandler} />
+        {backdrop}
+        <Switch>
+          <Route path="/" exact component={Home} />
+          {/* <Route path="/portfolio" exact component={Work} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} /> */}
+        </Switch>
+      </Router>
+    </React.Fragment>
   );
 }
 
