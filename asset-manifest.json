@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/auranggg/static/css/main.be4cf84c.chunk.css",
+    "main.js": "/auranggg/static/js/main.4a1f9bdf.chunk.js",
+    "main.js.map": "/auranggg/static/js/main.4a1f9bdf.chunk.js.map",
+    "runtime-main.js": "/auranggg/static/js/runtime-main.fad2f2bc.js",
+    "runtime-main.js.map": "/auranggg/static/js/runtime-main.fad2f2bc.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/auranggg/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.14eff667.chunk.js": "/auranggg/static/js/2.14eff667.chunk.js",
+    "static/js/2.14eff667.chunk.js.map": "/auranggg/static/js/2.14eff667.chunk.js.map",
+    "static/js/3.0681d01d.chunk.js": "/auranggg/static/js/3.0681d01d.chunk.js",
+    "static/js/3.0681d01d.chunk.js.map": "/auranggg/static/js/3.0681d01d.chunk.js.map",
+    "index.html": "/auranggg/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/auranggg/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.be4cf84c.chunk.css.map": "/auranggg/static/css/main.be4cf84c.chunk.css.map",
+    "static/js/2.14eff667.chunk.js.LICENSE.txt": "/auranggg/static/js/2.14eff667.chunk.js.LICENSE.txt",
+    "static/media/design-bg.f508f406.png": "/auranggg/static/media/design-bg.f508f406.png",
+    "static/media/front-end-bg.9e929e07.png": "/auranggg/static/media/front-end-bg.9e929e07.png",
+    "static/media/main-bg.b1b0a144.png": "/auranggg/static/media/main-bg.b1b0a144.png",
+    "static/media/nice-to-meet-you.80af656f.webp": "/auranggg/static/media/nice-to-meet-you.80af656f.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fad2f2bc.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.14eff667.chunk.js",
+    "static/css/main.be4cf84c.chunk.css",
+    "static/js/main.4a1f9bdf.chunk.js"
+  ]
+}
